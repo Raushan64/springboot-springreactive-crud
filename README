@@ -1,0 +1,27 @@
+To start the mongoDb server, open the terminal and use below command
+---------------------------------------------------------------------------
+> mongosh
+> then open MongoDB Compass app and just do the local connection
+
+
+Test all APIs
+----------------
+Url: For POST/PUT no need to give the Id because its auto generated.
+POST http://localhost:9292/products
+Payload: {
+           "name": "shoes",
+           "qty": 2,
+           "price": 2000
+         }
+GET http://localhost:9292/products
+GET http://localhost:9292/products/690cc2c1bb8c5e3d49bea892
+GET http://localhost:9292/products/product-range?min=200&max=2000
+
+PUT http://localhost:9292/products/update/690cc2c1bb8c5e3d49bea892
+Payload: {
+           "name": "shoes-kumar",
+           "qty": 2,
+           "price": 2000
+         }
+
+DELETE http://localhost:9292/products/delete/690cc2ddbb8c5e3d49bea893
