@@ -25,3 +25,8 @@ Payload: {
          }
 
 DELETE http://localhost:9292/products/delete/690cc2ddbb8c5e3d49bea893
+
+
+
+Reference:
+https://www.youtube.com/watch?v=bXcFCgQsvAE&list=PL-fmmU4KUbPZZ9CzwdReK2IrzmbG-amiA&index=39
